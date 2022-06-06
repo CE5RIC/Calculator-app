@@ -26,6 +26,30 @@ return a / b;
 }
 
 
+// Operator
+
+function operate(a, operator, b) {
+if (operator === "+") {
+    let added = add(a, b);
+    return added;
+} else if (operator === "-") {
+    let subtracted = subtract(a, b);
+    return subtracted;
+} else if (operator === "*") {
+    let multiplied = multiply(a, b);
+    return multiplied;
+} else if (operator === "/") {
+    let divided = divide(a, b);
+    return divided;
+}
+}
+
+
+
+
+
+
+
 
 
 
