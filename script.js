@@ -69,15 +69,45 @@ document.getElementById('.').addEventListener('click', input);
 
 
 
-// 
+// Get display element as constant
+const display = document.getElementById("display-text");
+ 
+// Set current display to empty string       
+let displayCurrent = "";
+
+
+// Input function to get chosen number 
 
 function input(getElementById) {
-console.log(getElementById.target.innerText);
-let chosenNumber = document.getElementById("display").innerText = getElementById.target.innerText;
-
+    
+let chosenNumber = getElementById.target.innerText;
 console.log(chosenNumber);
-
+displayCurrent += chosenNumber;
+console.log(displayCurrent);
 }
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
